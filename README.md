@@ -20,4 +20,4 @@ Vsmart Active 1 was announced and released in december 2018.
 How to build
 
 . build/envsetup.sh && lunch omni_zangyapro-eng && make -j32 recoveryimage
-a test2 branch
+
