@@ -18,4 +18,5 @@
 /dev/block/bootdevice/by-name/fsg        /fsg               ext4   ro,nosuid,nodev,context=u:object_r:fsg_file:s0   wait,slotselect
 /dev/block/bootdevice/by-name/oem        /vendor            ext4   ro,barrier=1,discard                             wait,verify,slotselect
 /dev/block/bootdevice/by-name/carrier    /carrier           ext4   rw,noatime,nosuid,nodev,barrier=1,data=ordered   wait,check,formattable
+/dev/block/bootdevice/by-name/cache      /cache             ext4    nosuid,noatime,nodev,barrier=1                               wait
 /devices/*/xhci-hcd.*.auto/usb*          auto               auto   defaults                                         voldmanaged=usb:auto
