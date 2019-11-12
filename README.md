@@ -21,4 +21,4 @@ How to build
 
 . build/envsetup.sh && lunch omni_zangyapro-eng && make -j32 recoveryimage
 
-Wrong lib,doesnt boot
+My friend checked,it okay
