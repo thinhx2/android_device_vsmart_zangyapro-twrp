@@ -39,6 +39,7 @@
 /dev/block/bootdevice/by-name/modem          /modem          vfat   defaults                                         wait,slotselect
 /dev/block/bootdevice/by-name/persist        /persist        ext4   defaults                                         defaults
 /dev/block/bootdevice/by-name/bluetooth      /bt_firmware    vfat   defaults                                         wait,slotselect
+/dev/block/bootdevice/by-name/cache                     /cache               ext4    nosuid,noatime,nodev,barrier=1                               wait
 
 # USB-OTG
 /devices/platform/soc/a800000.ssusb/a800000.dwc3/xhci-hcd.*.auto*    /storage/usbotg    vfat    nosuid,nodev    wait,voldmanaged=usbotg:auto
